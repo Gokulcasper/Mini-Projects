@@ -6,7 +6,7 @@ function createSnow() {
 
   container.appendChild(span);
 
-  setTimeout(() => {
+  setTimeout(function () {
     span.remove();
   }, 5000);
 }
