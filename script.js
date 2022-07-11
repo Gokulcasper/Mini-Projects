@@ -15,7 +15,7 @@ setInterval(createSnow, 100);
 
 // count down part
 
-let countDate = new Date("jan 01, 2023 00:00:00").getTime();
+let countDate = new Date("jan 1, 2023 00:00:00").getTime();
 
 function countDown() {
   let now = new Date().getTime();
